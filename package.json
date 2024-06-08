@@ -9,14 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.4.5",
+    "mongose": "^0.0.2-security",
+    "next": "14.3.0-canary.9",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.3.0-canary.9"
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
 }

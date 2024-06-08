@@ -1,8 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from "@/sections/Hero";
+import Post from "@/sections/Post";
 
 export default function Home() {
   return (
-    <h1>helo world</h1>
+    <main id="main">
+      <Hero />
+      <Post />
+    </main>
   );
 }
